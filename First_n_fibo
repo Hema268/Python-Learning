@@ -1,0 +1,11 @@
+n =5
+a,b = 1,0
+r =[]
+for i in range(1,n+1):
+    sum = a + b
+    a = b
+    b = sum
+    r.append(sum)
+    print(sum)
+print(r)
+    
